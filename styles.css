@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+} 
+
+.container .column {
+    flex: 1;
+}
+
+.left {
+    background-color: red;
+}
+
+.right {
+    background-color: blue;
+}
