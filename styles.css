@@ -14,6 +14,8 @@
 .left {
     background-image: url(form-images/form-background.png);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container .column {
