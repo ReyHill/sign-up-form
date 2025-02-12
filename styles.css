@@ -7,6 +7,10 @@
     height: 100vh;
 } 
 
+.column {
+    flex-grow: 1;
+}
+
 .page-logo {
     max-width: 100%;
 }
@@ -19,13 +23,7 @@
 }
 
 .right {
-    flex-direction: column;
-}
-
-.container .column {
-    flex: 1;
-}
-
-.right {
+    text-align: center;
+    align-content: center;
     background-color: blue;
 }
