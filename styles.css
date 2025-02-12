@@ -18,6 +18,10 @@
     background-repeat: no-repeat;
 }
 
+.right {
+    flex-direction: column;
+}
+
 .container .column {
     flex: 1;
 }
