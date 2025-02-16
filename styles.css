@@ -36,7 +36,6 @@
 .right {
     text-align: center;
     align-content: center;
-    background-color: blue;
 }
 
 .disclaimer-container {
@@ -45,4 +44,18 @@
     justify-content: center;
     top: 85%; 
     color: orange;
+}
+
+form .form-containers {
+    justify-content: space-evenly;
+}
+
+.form-containers {
+    display: flex;
+    margin: 50px;
+}
+
+.form-controls {
+    text-align: left;
+    width: 200px;
 }
