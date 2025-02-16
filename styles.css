@@ -38,3 +38,11 @@
     align-content: center;
     background-color: blue;
 }
+
+.disclaimer-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 85%; 
+    color: orange;
+}
