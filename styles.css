@@ -11,11 +11,18 @@
     flex-grow: 1;
 }
 
-.page-logo {
-    max-width: 100%;
-    background-color: rgba(0 0 0 / 40%);
-    position: relative;
+.logo-container {
+    display: flex;
+    position: relative; 
     top: 20%;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(0 0 0 / 40%);
+}
+
+.page-logo {
+    height: 100px;
 }
 
 .left {
