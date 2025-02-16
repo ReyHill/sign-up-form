@@ -59,3 +59,31 @@ form .form-containers {
     text-align: left;
     width: 200px;
 }
+
+.form-submit-button {
+    color: white;
+    background-color: orange;
+    font-size: large;
+    height: 50px;
+    width: 100px;
+    border-style: none;
+}
+
+.form-clear-button {
+    color: white;
+    background-color: grey;
+    font-size: large;
+    height: 50px;
+    width: 100px;
+    border-style: none;
+}
+
+.right p {
+    text-align: left;
+    margin-left: 50px
+}
+
+.button-box {
+    text-align: left;
+    margin-left: 50px;
+}
