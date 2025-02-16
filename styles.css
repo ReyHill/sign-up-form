@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "custom-font";
+    src: url(./form-fonts/Norse-Bold.otf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -40,6 +45,11 @@ body {
 
 .page-logo {
     height: 100px;
+}
+
+.page-logo-text {
+    font-family: custom-font;
+    font-size: 2rem;
 }
 
 .disclaimer-container {
