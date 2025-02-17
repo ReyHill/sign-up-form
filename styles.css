@@ -108,6 +108,14 @@ input {
     outline: none;
 }
 
+input:user-valid {
+    border: solid green 2px;
+}
+
+input:user-invalid {
+    border: solid red 2px;
+}
+
 .required-input::after {
     color: red;
     content: '*';  
