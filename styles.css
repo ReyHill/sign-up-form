@@ -103,6 +103,11 @@ button {
     font-weight: bold;
 }
 
+input {
+    border: solid black 2px;
+    outline: none;
+}
+
 .required-input::after {
     color: red;
     content: '*';  
